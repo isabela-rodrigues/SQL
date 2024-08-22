@@ -1,3 +1,3 @@
 SELECT name
 FROM customers
-WHERE state = 'RS'
+WHERE state = 'RS' 
