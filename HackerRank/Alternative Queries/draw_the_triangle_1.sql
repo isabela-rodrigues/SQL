@@ -1,0 +1,7 @@
+DECLARE @COUNT INT = 20;
+
+WHILE @COUNT > 0
+    BEGIN
+        PRINT REPLICATE('* ', @COUNT);
+        SET @COUNT = @COUNT - 1;
+    END
